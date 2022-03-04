@@ -1,33 +1,30 @@
 <Code>
 
-void main() {  
-//   SYED AHMED AMIN GILANI
-	num sub1=81;
-	num sub2=81;
-	num sub3=81;
-	num sub4=81;
-	num sub5=81;
+void main() {
+    //   SYED AHMED AMIN GILANI
+    num sub1=81;
+    num sub2=81;
+    num sub3=81;
+    num sub4=81;
+    num sub5=81;
   	num avg=(sub1+sub2+sub3+sub4+sub5)/5;
-	if(avg>=90){
-		print("Grade: A");
-	}
-  	if(avg>=80 && avg<90){
-   		print("Grade: B");
-  	}
-  	if(avg>=70&&avg<80){
-    		print("Grade: C");
-  	}
-  	if(avg>=60&&avg<70){
-    		print("Grade: D");
-  	}
-  	if(avg>=50&&avg<60){
-    		print("Grade: D");
-  	}
-  	if(avg<50){
-    		print("Grade: F");
-  	}
+    if(avg>=90){
+      print("Grade: A");
+    }
+    if(avg>=80 && avg<90){
+      print("Grade: B");
+    }
+    else if(avg>=70&&avg<80){
+      print("Grade: C");
+    }
+    else if(avg>=60&&avg<70){
+      print("Grade: D");
+    }
+    else if(avg>=50&&avg<60){
+      print("Grade: D");
+    }
+    else{
+      print("Grade: F");
+    }
+
 }
-
-
-
-
